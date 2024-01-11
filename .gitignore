@@ -39,12 +39,16 @@ wp-config.php
 #
 # Note: If you wish to whitelist plugins,
 # uncomment the next line
-/wp-content/plugins
+/wp-content/plugins/classic-*
+/wp-content/plugins/copy*
+/wp-content/plugins/faker*
+/wp-content/plugins/simply-static/vendor
 
 # All themes
 #
 # Note: If you wish to whitelist themes,
 # uncomment the next line
-#/wp-content/themes
+/wp-content/themes/twenty*
+/wp-content/themes/*.zip
 .gitignore
 cli*
